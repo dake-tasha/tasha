@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Primary Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fun Learning!</h1>
+    </header>
+    <nav>
+        <button onclick="playAudio('welcome')">Play Welcome Song</button>
+        <button onclick="startDrawing()">Drawing & Coloring</button>
+    </nav>
+    <main>
+        <section id="learning">
+            <h2>Learn Alphabets</h2>
+            <div class="alphabet-container">
+                <button class="alphabet" onclick="playAudio('a')">A</button>
+                <button class="alphabet" onclick="playAudio('b')">B</button>
+                <button class="alphabet" onclick="playAudio('c')">C</button>
+                 <button class="alphabet" onclick="playAudio('d')">D</button>
+                 <button class="alphabet" onclick="playAudio('e')">E</button>
+                 <button class="alphabet" onclick="playAudio('f')">F</button>
+                 <button class="alphabet" onclick="playAudio('g')">G</button>
+                 <button class="alphabet" onclick="playAudio('h')">H</button>
+                 <button class="alphabet" onclick="playAudio('i')">I</button>
+                 <button class="alphabet" onclick="playAudio('j')">J</button>
+                 <button class="alphabet" onclick="playAudio('k')">K</button>
+                 <button class="alphabet" onclick="playAudio('l')">L</button>
+                 <button class="alphabet" onclick="playAudio('m')">M</button>
+                 <button class="alphabet" onclick="playAudio('n')">N</button>
+                 <button class="alphabet" onclick="playAudio('o')">O</button>
+                 <button class="alphabet" onclick="playAudio('p')">P</button>
+                 <button class="alphabet" onclick="playAudio('q')">Q</button>
+                 <button class="alphabet" onclick="playAudio('r')">R</button>
+                 <button class="alphabet" onclick="playAudio('s')">S</button>
+                 <button class="alphabet" onclick="playAudio('t')">T</button>
+                 <button class="alphabet" onclick="playAudio('u')">U</button>
+                 <button class="alphabet" onclick="playAudio('v')">V</button>
+                 <button class="alphabet" onclick="playAudio('w')">W</button>
+                 <button class="alphabet" onclick="playAudio('x')">X</button>
+                 <button class="alphabet" onclick="playAudio('y')">Y</button>
+                 <button class="alphabet" onclick="playAudio('z')">Z</button>
+
+
+
+            </div>
+        </section>
+        <section id="drawing" class="hidden">
+            <h2>Drawing Canvas</h2>
+
+            <canvas id="drawingCanvas" width="500" height="400"></canvas>
+        </section>
+        <section>
+             <button onclick="toggleEraser()">Eraser</button>
+        </section>
+
+    </main>
+    <audio id="welcome" src="audio/welcome.mpeg"></audio>
+    <audio id="a" src="audio/A.aac"></audio>
+    <audio id="b" src="audio/B.aac"></audio>
+    <audio id="c" src="audio/C.aac"></audio>
+    <audio id="d" src="audio/D.aac"></audio>
+    <audio id="e" src="audio/E.aac"></audio>
+    <audio id="f" src="audio/F.aac"></audio>
+    <audio id="g" src="audio/G.aac"></audio>
+    <audio id="h" src="audio/H.aac"></audio>
+    <audio id="i" src="audio/I.aac"></audio>
+    <audio id="j" src="audio/J.aac"></audio>
+    <audio id="k" src="audio/K.aac"></audio>
+    <audio id="l" src="audio/L.aac"></audio>
+    <audio id="m" src="audio/M.aac"></audio>
+    <audio id="n" src="audio/N.aac"></audio>
+    <audio id="o" src="audio/O.aac"></audio>
+    <audio id="p" src="audio/P.aac"></audio>
+    <audio id="q" src="audio/Q.aac"></audio>
+    <audio id="r" src="audio/R.aac"></audio>
+    <audio id="s" src="audio/S.aac"></audio>
+    <audio id="t" src="audio/T.aac"></audio>
+    <audio id="u" src="audio/U.aac"></audio>
+    <audio id="v" src="audio/V.aac"></audio>
+    <audio id="w" src="audio/W.aac"></audio>
+    <audio id="x" src="audio/X.aac"></audio>
+    <audio id="y" src="audio/Y.aac"></audio>
+    <audio id="z" src="audio/Z.aac"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
